@@ -1,0 +1,46 @@
+.filmsList{
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    div{
+        width:150px;
+        h3{
+            margin-top: 10px;
+            font-size: 16px;
+            color: #fff;
+        }
+        img{
+            height: 225px;
+            border-radius: 7px;
+        }
+        p{
+            font-size: 12px;
+            color:#e4e1e1;
+            margin-top: 7px;
+        }
+    }
+}
+.allFilmMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    li{
+        color: white;
+        cursor: pointer;
+        font-size: 28px;
+        
+    }
+    
+}
+.active{
+    text-decoration: underline;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,63 @@
+.detailsWrapper{
+    display: flex;
+    gap:30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.wrapperPersonal{
+    border-radius: 10px;
+    img{
+        border-radius: 10px;
+    }
+    h3{
+        padding:15px 0;
+    }
+    p{
+        padding: 4px 0;
+    }
+    span{
+        padding-top: 5px;
+    }
+}
+.creditsFilmsWrapper{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.biography{
+    margin: 20px 0;
+}
+.filmList{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 40px;
+    width: 890px;
+    gap:30px;
+    &::-webkit-scrollbar{
+        height:10px;
+        border-radius: 20px;
+        background: rgba($color: #fff, $alpha: 0.3);
+    }
+    &::-webkit-scrollbar-thumb{
+        background: #c18f8f;
+        border-radius: 20px;
+    }
+    div{
+        width:150px;
+        h3{
+            margin-top: 10px;
+            font-size: 16px;
+            color: #fff;
+        }
+        img{
+            height: 225px;
+            border-radius: 7px;
+        }
+        p{
+            font-size: 12px;
+            color:#e4e1e1;
+            margin-top: 7px;
+        }
+    }
+  }
